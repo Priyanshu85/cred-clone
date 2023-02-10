@@ -1,8 +1,8 @@
 import React from "react";
 import AppRating from "../components/AppRating";
 import BrandsLove from "../components/BrandsLove";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from "../components/common/footer/index";
+import Header from "../components/common/Header/index";
 import CredExperience from "../components/CredExperience";
 import CredSecurity from "../components/CredSecurity";
 import CredStory from "../components/CredStory";
@@ -12,7 +12,7 @@ import MobileScroll from "../components/MobileScroll";
 import ProductShowcase from "../components/ProductShowcase";
 import WindowPeak from "../components/WindowPeak";
 
-const HomePage = () => {
+const homePage = () => {
     return (
         <>
             <Header />
@@ -33,4 +33,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default homePage;
